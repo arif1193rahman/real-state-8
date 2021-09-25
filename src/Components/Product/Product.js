@@ -12,6 +12,13 @@ const Product = () => {
             .then(res => res.json())
             .then(data => setProducts(data))
     }, []);
+
+    const [addCartProduct, setAddCartProduct] = useState([]);
+    const handleCart = (cartProduct) => {
+        const newProduct = [...addCartProduct, cartProduct];
+        setAddCartProduct(newProduct);
+    }
+    console.log(addCartProduct)
     return (
         <div className="container">
             <div className="row">
@@ -19,6 +26,7 @@ const Product = () => {
                     <div className="row">
                         {
                             products.map(unit => <SingleProduct
+                                handleCart={handleCart}
                                 key={unit.id}
                                 unit={unit}
                             ></SingleProduct>)

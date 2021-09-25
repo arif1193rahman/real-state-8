@@ -3,7 +3,8 @@ import './SingleProduct.css';
 
 const SingleProduct = (props) => {
     const { name, img, capacity, type, quality, price } = props.unit;
-    console.log(img)
+    // console.log(props.handleCart)
+
     return (
         <div className="col-md-4 product-card">
             <img src={img} alt="" />
@@ -12,6 +13,7 @@ const SingleProduct = (props) => {
             <p>Type:{type}</p>
             <p>Quality:{quality}</p>
             <p>Price:{price}</p>
+            <button className="btn btn-primary" onClick={() => props.handleCart(props.unit)}>Add Product</button>
         </div>
     );
 };
