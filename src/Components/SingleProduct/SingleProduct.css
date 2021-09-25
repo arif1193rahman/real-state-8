@@ -1,0 +1,15 @@
+.product-card {
+    text-align: center;
+    margin: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding-top: 5px;
+    /* padding: 0; */
+    border-radius: 10px;
+    /* margin-right: 5px; */
+}
+
+.product-card img {
+    width: 200px;
+    border-radius: 30px
+}
