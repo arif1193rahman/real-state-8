@@ -6,6 +6,6 @@
 3. Total Amount of Buildings
 
 Link
-[Visit](https://www.youtube.com/watch?v=bpdvNwvEeSE"LCO")
+(https://www.youtube.com/watch?v=bpdvNwvEeSE"LCO")
 
 >keep smiling and work harder
