@@ -5,6 +5,7 @@ const SingleProduct = (props) => {
     const { name, img, basic, type, quality, price } = props.unit;
     // console.log(props.handleCart)
 
+    // Show card details
     return (
         <div className="col-md-4 product-card product-section">
             <img src={img} alt="" />

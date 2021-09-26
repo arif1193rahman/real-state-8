@@ -2,6 +2,8 @@ import React from 'react';
 import './Header.css'
 
 const Header = () => {
+
+    // Header section
     return (
         <div className="header-section">
             <h1 className="header-main">Ever Green <br></br><small>Real State company</small></h1>
