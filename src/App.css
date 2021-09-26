@@ -1,3 +1,12 @@
 body {
-    /* margin: 0; */
+    background-image: url('https://i.ibb.co/s9mgF5N/pc-accessories-category-OGimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* margin-top: 40px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-main {
+    color: rgb(227, 240, 161);
 }

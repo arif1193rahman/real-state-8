@@ -1,13 +1,24 @@
 .product-card {
+    width: 300px;
+    height: 500px;
     text-align: center;
-    /* margin: 1px; */
-    border: 2px solid green;
-    border-radius: 10px;
     border-radius: 10px;
     padding: 5px;
+    margin-top: 30px;
+    background-color: rgba(106, 118, 68, 0.646);
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+        inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+        5px 5px 5px rgba(0, 0, 0, 0.05),
+        -5px -5px 5px rgba(255, 255, 255, 0.5);
 }
 
 .product-card img {
     width: 200px;
-    border-radius: 30px
+    border-radius: 100px
+}
+
+.product-section {
+    margin: 10px;
+    margin-left: 30px;
+    color: rgb(114, 240, 240);
 }

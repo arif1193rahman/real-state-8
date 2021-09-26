@@ -7,7 +7,7 @@ const Cart = (props) => {
     const reducerProcess = (previousCost, currentCost) => previousCost + currentCost.price;
     const totalAmount = addCartProduct.reduce(reducerProcess, 0);
     return (
-        <div>
+        <div className="card-design">
             <h1>Total Add: {addCartProduct.length}</h1>
             <h2>Amount: {totalAmount}</h2>
             {

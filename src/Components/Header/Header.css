@@ -1,6 +1,14 @@
+.header-main {
+    font-size: 80px;
+    box-shadow: 5px 5px 15px 5px;
+    border-radius: 10px;
+}
+
 .header-section {
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgba(131, 171, 176, 0.777);
     margin: 30px;
     padding: 10px;
+    margin: 0px;
+
 }
