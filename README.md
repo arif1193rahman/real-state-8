@@ -6,6 +6,6 @@
 3. Total Amount of Buildings
 
 Link
-[visit Website](https://admiring-spence-76aad2.netlify.app/ "LCO")
+[visit Website](https://condescending-aryabhata-3238bd.netlify.app/ "LCO")
 
 >keep smiling and work harder
