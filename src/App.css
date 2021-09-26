@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     /* margin-top: 40px; */
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .app-main {

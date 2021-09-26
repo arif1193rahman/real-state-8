@@ -7,12 +7,15 @@ import SingleProduct from '../SingleProduct/SingleProduct';
 
 const Product = () => {
     const [products, setProducts] = useState([]);
+
+    // Receive data from json
     useEffect(() => {
         fetch('./computer.JSON')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, []);
 
+    // copy data 
     const [addCartProduct, setAddCartProduct] = useState([]);
     const handleCart = (cartProduct) => {
         const newProduct = [...addCartProduct, cartProduct];

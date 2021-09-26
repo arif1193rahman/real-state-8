@@ -4,8 +4,11 @@ import './Cart.css'
 const Cart = (props) => {
     const { addCartProduct } = props || {}
     // console.log(addCartProduct)
+    // receive data from product
     const reducerProcess = (previousCost, currentCost) => previousCost + currentCost.price;
     const totalAmount = addCartProduct.reduce(reducerProcess, 0);
+
+    // send data to cart
     return (
         <div className="card-design">
             <h1>Total Add: {addCartProduct.length}</h1>

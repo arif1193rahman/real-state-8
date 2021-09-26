@@ -14,11 +14,11 @@
     padding: 5px;
     margin: 0px;
     line-height: 1;
+    /* overflow-x: hidden; */
 }
 
 .second-main {
     font-weight: 500;
-    font-family: initial;
     color: rgb(65, 109, 68);
 }
 
