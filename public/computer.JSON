@@ -1,59 +1,83 @@
 [
     {
-        "name": "ssd",
-        "id":1,
-        "img": "https://i.ibb.co/cbPMtFR/samsung-ssd-850-2370-002.webp",
-        "price": 3000,
-        "capacity": 128,
-        "interface": "Interface SATA 6Gb/s",
-        "type": "Form Factor 2.5”/7mm,M.2 2280",
-        "quality": "For fast performance and reliability"
+        "name": "Hill Mount",
+        "id": 132,
+        "img": "https://i.ibb.co/F6KKHxZ/Empty-road-at-building-exterior.jpg",
+        "price": 300000,
+        "basic": "Car Parking, Play Ground, Masjid, Park",
+        "type": "Commercial",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system, Lift System"
     },
     {
-        "name": "Cougar Conquer ATX Mid Tower",
-        "id":2,
-        "img": "https://i.ibb.co/XSmnp45/robeytech-senna-featured-image.jpg",
-        "price": 13000,
-        "interface": "MSI MPG X570 GAMING PRO",
-        "type": "EK Water Blocks EK-Velocity - Nickel + Acetal",
-        "quality": "For fast performance and reliability, Thermaltake Pacific C240 Soft Tube Water Cooling Kit"
+        "name": "Green Town",
+        "id": 2423,
+        "img": "https://i.ibb.co/7nGcNLm/Photo-of-a-modern-custom-single-level-suburban-home-on-a-sunny-summer-day.jpg",
+        "price": 130000,
+        "basic": "Car Parking, Play Ground, Masjid, Park",
+        "type": "Personal Home",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system"
     },
     {
-        "name": "Revenger 350 Watt Power Supply",
-        "id":3,
-        "img": "https://i.ibb.co/8Yq1BxV/revenger-350w-power-supply-box-500x500.jpg",
-        "price": 1200,
-        "interface": "Revenger350W",
-        "type": "Power supply",
-        "quality": "For fast performance and reliability"
+        "name": "House Building",
+        "id": 313,
+        "img": "https://i.ibb.co/WGtNK3j/703e55ed92ee091955a2021429718934.jpg",
+        "price": 120000,
+        "basic": "Car Parking, Play Ground, Masjid, Park",
+        "type": "Flower Bacis",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system, lift System,Gas, Genarator"
     },
     {
-        "name": "AMD Spinning",
-        "id":4,
-        "img": "https://i.ibb.co/YTZc1KM/CPU-Fan-Not-Spinning.jpg",
-        "price": 10000,
-        "capacity": 128,
-        "interface": "MSI MPG X570 GAMING PRO",
-        "type": "AMD RADEON RX 6600 XT",
-        "quality": "AMD’s driver software is great"
+        "name": "Jannat Palace",
+        "id": 442,
+        "img": "https://i.ibb.co/dkzqbvm/This-is-the-5-storey-building-design-design-by-firstfloorplan-com.jpg",
+        "price": 1050000,
+        "basic": "Car Parking, Play Ground, Masjid, Park",
+        "type": "4 Unit",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system, Lift System,genarator"
     },
     {
-        "name": "Desktop Power Cable",
-        "id":5,
-        "img": "https://i.ibb.co/Jmc7KfW/4a495ea7182e90ce9073efdbaf7a4111.jpg",
-        "price": 300,
-        "interface": "Power Cable",
-        "type": "Form Factor 2.5”/7mm,M.2 2280",
-        "quality": "For fast performance and reliability"
+        "name": "Night Fury",
+        "id": 1325,
+        "img": "https://i.ibb.co/bj4TmNd/private-dwelling.jpg",
+        "price": 303000,
+        "basic": "Car Parking, Play Ground, Masjid",
+        "type": "Personal Home",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system,Lift System,genarator"
     },
     {
-        "name": "Cougar Conquer ATX Mid Tower",
-        
-        "img": "url",
-        "price": 13000,
-        "capacity": 128,
-        "interface": "MSI MPG X570 GAMING PRO",
-        "type": "EK Water Blocks EK-Velocity - Nickel + Acetal",
-        "quality": "For fast performance and reliability, Thermaltake Pacific C240 Soft Tube Water Cooling Kit"
+        "name": "Builder House",
+        "id": 63124,
+        "img": "https://i.ibb.co/MCNhg2P/modern-residential-building-design-355666-670x400.jpg",
+        "price": 230000,
+        "basic": "Car Parking, Play Ground, Masjid, Park",
+        "type": "Mordern House",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system, genarator"
+    },
+    {
+        "name": "Moon face",
+        "id": 63124,
+        "img": "https://i.ibb.co/HhTS3df/kdc-5c5215f93ddd7.jpg",
+        "price": 260000,
+        "basic": "Car Parking, Play Ground, Masjid",
+        "type": "Top Hill",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system, genarator"
+    },
+    {
+        "name": "Green View",
+        "id": 63124,
+        "img": "https://i.ibb.co/bj4TmNd/private-dwelling.jpg",
+        "price": 230000,
+        "basic": "Car Parking, Play Ground, Masjid, Park",
+        "type": "Personal Home",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system, Lift System,genarator"
+    },
+    {
+        "name": "Nature",
+        "id": 63124,
+        "img": "https://i.ibb.co/4Y2qR5b/unnamed.jpg",
+        "price": 230000,
+        "basic": "Car Parking, Play Ground, Park",
+        "type": "Basundhara Group",
+        "quality": "Heigh Security, All Time Water, Eletricity, fire distinguish system,Lift System,genarator"
     }
 ]

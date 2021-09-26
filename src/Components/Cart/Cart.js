@@ -11,7 +11,8 @@ const Cart = (props) => {
             <h1>Total Add: {addCartProduct.length}</h1>
             <h2>Amount: {totalAmount}</h2>
             {
-                addCartProduct.map(element => <li>{element.name}</li>)
+                addCartProduct.map(element => <li key={element.id}>{element.name}
+                </li>)
             }
         </div>
     );

@@ -1,11 +1,11 @@
 .product-card {
     width: 300px;
-    height: 500px;
+    height: 480px;
     text-align: center;
     border-radius: 10px;
     padding: 5px;
     margin-top: 30px;
-    background-color: rgba(106, 118, 68, 0.646);
+    background-color: rgba(100, 147, 143, 0.585);
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
         inset -5px -5px 5px rgba(255, 255, 255, 0.5),
         5px 5px 5px rgba(0, 0, 0, 0.05),
@@ -14,11 +14,23 @@
 
 .product-card img {
     width: 200px;
-    border-radius: 100px
+    border-radius: 100px;
+    margin-bottom: 5px;
+
 }
 
 .product-section {
     margin: 10px;
     margin-left: 30px;
-    color: rgb(114, 240, 240);
+    color: rgb(240, 252, 222);
+    line-height: 1;
+}
+
+.button {
+    background-color: rgba(198, 251, 134, 0.407);
+    padding: 10px;
+    margin: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 500;
 }
