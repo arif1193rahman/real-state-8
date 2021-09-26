@@ -1,14 +1,18 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = (props) => {
+    const { addCartProduct } = props || {}
+    // console.log(addCartProduct)
+    const reducerProcess = (previousCost, currentCost) => previousCost + currentCost.price;
+    const totalAmount = addCartProduct.reduce(reducerProcess, 0);
     return (
         <div>
-            <h1>This is cart</h1>
-            <h1>This is cart</h1>
-            <h1>This is cart</h1>
-            <h1>This is cart</h1>
-            <h1>This is cart</h1>
+            <h1>Total Add: {addCartProduct.length}</h1>
+            <h2>Amount: {totalAmount}</h2>
+            {
+                addCartProduct.map(element => <li>{element.name}</li>)
+            }
         </div>
     );
 };

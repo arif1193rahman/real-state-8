@@ -34,7 +34,7 @@ const Product = () => {
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <Cart />
+                    <Cart addCartProduct={addCartProduct} />
                 </div>
             </div>
         </div >
