@@ -6,6 +6,6 @@
 3. Total Amount of Buildings
 
 Link
-(https://unruffled-banach-6065b6.netlify.app/"LCO")
+[visit Website](https://unruffled-banach-6065b6.netlify.app/"LCO")
 
 >keep smiling and work harder
